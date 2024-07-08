@@ -1,0 +1,46 @@
+body{
+    background-color:rgb(194, 249, 249);
+    margin:40px;
+  
+}
+
+button{
+    font-size: 16px;
+    padding: 15px;
+    border: 0;
+    border-radius: 20px;
+    margin:10px;
+}
+button.active{
+    background-color:rgb(157, 80, 229);
+    color: antiquewhite;
+}
+.card{
+   border:1px solid black transparent;
+   box-shadow: 0 0 10px rgb(173, 172, 172);
+   width:340px;
+   flex-grow: 1;
+   background-color: aliceblue;
+   border-radius: 16px;
+}
+.card.hide{
+    display: none;
+}
+.cards{
+    display:flex;
+    gap:80px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+}
+.html-img{
+   height:180px;
+   width:425px;
+   border-radius: 16px;
+}
+.html-head{
+    color:blue;
+}
+.html-content{
+   padding:10px;
+}
